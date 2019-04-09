@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link class="nav-item nav-logo" to="/">Web Builder</router-link>
-      
-      <div class="nav-menu">
-        <router-link class="nav-item" to="/">Home</router-link>
-        <router-link class="nav-item" to="/about">About</router-link>  
-      </div>
-    </div>
+    <MainNav />
+
     <router-view/>
+    
   </div>
 </template>
+
+<script>
+  import MainNav from '@/components/MainNav/Index'
+  export default {
+    components: { MainNav }
+  }
+</script>
 
 <style>
   #app {
