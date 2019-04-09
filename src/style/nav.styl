@@ -1,0 +1,40 @@
+#nav 
+  position: fixed
+  top: 0
+  left: 0
+  height: 70px
+  width: 100%
+  background-color: $white
+  display: flex
+  justify-content: space-between
+  align-items: center
+  font-weight: 800
+  box-shadow: 0 0 6px rgba(0,0,0,.15)
+  
+  .nav-menu
+    display: flex
+    align-items: center
+    height: inherit
+  .nav-item
+    height: inherit
+    display: flex
+    justify-content: center
+    align-items: center
+    padding: 0 50px
+    color: $dark
+    transition: all 200ms ease-in-out
+    &:hover, &.router-link-exact-active
+      background-color: $light
+      cursor: pointer
+  .nav-logo
+    height: inherit
+    padding: 0 15px
+    display: flex
+    justify-content: center
+    align-items: center
+    transition: all 200ms ease-in-out
+    &:hover
+      background-color: $light
+
+      
+    
