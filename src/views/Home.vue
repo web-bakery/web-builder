@@ -12,7 +12,7 @@ export default {
   methods: {
     onSave (vuse) {
       vuse.export('preview');
-      vuse.export('pwa');
+      //vuse.export('pwa');
     }
   }
 }

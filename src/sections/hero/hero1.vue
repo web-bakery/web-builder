@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import * as types from 'vuse/types';
+  import { types } from 'vuse';
 
 export default {
   name: 'Hero1',

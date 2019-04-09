@@ -56,7 +56,7 @@
 </template>
 
 <script>
-import * as types from 'vuse/src/types';
+import { types } from 'vuse';
 
 export default {
   name: 'Social4',

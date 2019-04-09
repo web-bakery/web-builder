@@ -5,7 +5,8 @@ import './registerServiceWorker'
 
 import Vuse from 'vuse';
 import Uploader from './Uploader'
-import pwa from 'vuse/plugins/pwa';
+//import pwa from './pwa';
+import './style/_demo.styl';
 
 import hero1 from './sections/hero/hero1';
 import hero2 from './sections/hero/hero2';
@@ -38,13 +39,13 @@ Vuse.component(social4);
 Vuse.component(newsletter);
 
 // install pwa plugin.
-Vuse.use(pwa);
+//Vuse.use(pwa);
 
 // install the builder
 Vue.use(Vuse, {
   // main css file
   assets: {
-    css: 'css/style.css'
+    css: 'css/vuse.css'
   },
   // builder default themes
   themes: [{

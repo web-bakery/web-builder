@@ -43,7 +43,6 @@ export default {
 </script>
 
 <style lang="stylus">
-@import '../src/stylus/_app.styl'
 
 .uploader
   position: relative
