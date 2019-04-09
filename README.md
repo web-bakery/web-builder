@@ -1,4 +1,6 @@
-# website-builder
+# web-builder
+> Build your own web! 
+[![Build Status](https://travis-ci.org/web-bakery/web-builder.svg?branch=master)](https://travis-ci.org/web-bakery/web-builder)
 
 ## Project setup
 ```
