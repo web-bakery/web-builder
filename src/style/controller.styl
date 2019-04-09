@@ -1,0 +1,36 @@
+.controller
+    width: 100%
+    padding: 100px 0
+    background-color: $white
+    .controller-intro, .controller-panel
+        width: 900px
+        margin: 0 auto
+        display: flex
+        flex-direction: column
+        align-items: center
+        label
+            font-size: 32px
+            font-weight: 800
+            margin-bottom: 30px
+        input
+            background-color: $light
+            border-radius: 10px
+            height: 50px
+            width: 600px
+            padding: 0 15px
+            outline: none
+        .controller-themes
+            display: flex
+            flex-direction: column
+            align-items: center
+            .controller-theme
+                height: 100px
+                width: 600px
+                border-radius: 10px
+                background-color: $light
+                margin-top: 30px
+                font-weight: 800
+                transition: all 200ms ease-in-out
+                &:hover
+                    background-color: $cyan
+                    color: $white
