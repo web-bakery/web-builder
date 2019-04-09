@@ -8,7 +8,7 @@ import 'vuetify/dist/vuetify.min.css'
 
 import Vuse from 'vuse';
 import Uploader from './Uploader'
-//import pwa from './pwa';
+import pwa from './pwa';
 import './style/_demo.styl';
 
 import hero1 from './sections/hero/hero1';
@@ -42,7 +42,7 @@ Vuse.component(social4);
 Vuse.component(newsletter);
 
 // install pwa plugin.
-//Vuse.use(pwa);
+Vuse.use(pwa);
 
 
 Vue.use(Vuetify)

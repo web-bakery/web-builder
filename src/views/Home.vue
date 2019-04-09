@@ -11,8 +11,8 @@ export default {
   name: 'home',
   methods: {
     onSave (vuse) {
-      vuse.export('preview');
-      //vuse.export('pwa');
+      //vuse.export('preview');
+      vuse.export('pwa');
     }
   }
 }
