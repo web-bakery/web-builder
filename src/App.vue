@@ -5,7 +5,7 @@
         LOGO GOES HERE
       </div>
       <div class="nav-menu">
-        <router-link class="nav-item" to="/">Home</router-link> |
+        <router-link class="nav-item" to="/">Home</router-link>
         <router-link class="nav-item" to="/about">About</router-link>  
       </div>
     </div>
@@ -20,6 +20,7 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    margin-top: 60px;
+    margin-top: 70px;
+    background-color: rgba(0,0,0,.025)
   }
 </style>
