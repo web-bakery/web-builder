@@ -1,7 +1,11 @@
 .styler
     background-color: var(--dark)
-    border-radius: 20px
+    border-radius: 30px
     padding: 10px
+    margin-top: 10px
+    display: none
+    &.is-visible
+        display: block
     .styler-list
         list-style-type: none
         display: flex
@@ -25,10 +29,9 @@
             list-style-type: none
             padding: 0
             display: flex
-            margin-top: 10px
+            margin: 10px 5px 0
         .input-group
-            margin-bottom: 0
-            margin-top: 10px
+            margin: 10px 5px 0
             border: 3px solid var(--white_25)
             border-radius: 100px
             .button

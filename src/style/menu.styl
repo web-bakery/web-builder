@@ -1,0 +1,51 @@
+.menu
+    position: fixed
+    top: 0
+    left: -301px
+    z-index: 30
+    height: 100vh
+    width: 300px
+    transition: var(--transition-300)
+    background-color: var(--dark)
+    box-shadow: var(--box-shadow)
+    list-style-type: none
+    padding: 10px
+    color: var(--white)
+    font-weight: 800
+    &.is-visiable
+        left: 0
+    .menu-group
+        margin-bottom: 10px
+        background-color: var(--white_5)
+        border-radius: 10px
+        .menu-header
+            display: flex
+            justify-content: space-between
+            align-items: center
+            padding: 15px
+            color: var(--white_50)
+            transition: var(--transition-200)
+            .menu-icon svg 
+                height: 20px
+                width: 20px
+                fill: var(--white_50)
+                transition: var(--transition-200)
+        .menu-body
+            display: none
+            flex-direction: column
+            padding: 10px 10px 0
+            .menu-element
+                    margin-bottom: 10px
+                    border-radius: 10px
+                    overflow: hidden
+                    background-color: var(--white)
+                    padding-bottom: 5px
+                    color: var(--dark)
+        &.is-visiable
+            .menu-body
+                display: flex
+            .menu-header
+                color: var(--white)
+            .menu-icon svg 
+                fill: var(--white)
+                transform: rotate(180deg)
