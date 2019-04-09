@@ -1,9 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <div class="nav-logo">
-        LOGO GOES HERE
-      </div>
+      <router-link class="nav-item nav-logo" to="/">Web Builder</router-link>
+      
       <div class="nav-menu">
         <router-link class="nav-item" to="/">Home</router-link>
         <router-link class="nav-item" to="/about">About</router-link>  
@@ -15,7 +14,7 @@
 
 <style>
   #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
