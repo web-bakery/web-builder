@@ -1,0 +1,82 @@
+.styler
+    background-color: var(--dark)
+    border-radius: 20px
+    padding: 10px
+    .styler-list
+        list-style-type: none
+        display: flex
+        padding: 0
+        justify-content: center
+        margin: 0 -5px
+        .styler-button
+            width: 40px 
+            height: 40px
+            border-radius: 100%
+            transition: var(--transition-200)
+            outline: none
+            margin: 0 5px
+            &:hover
+                background-color: var(--white_10)
+            svg 
+                height: 20px
+                width: 20px
+                fill: var(--white)
+        .colorer, .align
+            list-style-type: none
+            padding: 0
+            display: flex
+            margin-top: 10px
+        .input-group
+            margin-bottom: 0
+            margin-top: 10px
+            border: 3px solid var(--white_25)
+            border-radius: 100px
+            .button
+                background-color: var(--primary)
+                height: 34px
+                width: 50px
+                padding: 0
+                display: flex
+                justify-content: center
+                align-items: center
+                .vuse-icon
+                    height: 15px
+                    width: 15px
+        input[type="text"]
+            border: none
+            outline: none
+            color: var(--white)
+            ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                color: var(--white_25);
+            }
+            ::-moz-placeholder { /* Firefox 19+ */
+                color: var(--white_25);
+            }
+            :-ms-input-placeholder { /* IE 10+ */
+                color: var(--white_25);
+            }
+            :-moz-placeholder { /* Firefox 18- */
+                color: var(--white_25);
+            }
+        input[type="radio"]
+            appearance: none
+            -webkit-appearance: none
+            height: 30px
+            width: 30px
+            border-radius: 40px
+            border: 3px solid var(--white_25)
+            margin: 0 5px
+            outline: none
+            box-sizing: border-box
+            padding: 0
+            overflow: visible
+            &#colorBlue
+                background-color: var(--primary)
+            &#colorGreen
+                background-color: var(--green)
+            &#colorRed
+                background-color: var(--red)
+            &#colorBlack
+                background-color: var(--dark)
+            &#colorWhite
+                background-color: var(--white)

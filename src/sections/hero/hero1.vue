@@ -6,7 +6,7 @@
     .container
       .grid
         .column.is-desktop-6.add-center-vertical
-          h3.header-title(
+          h1.header-title(
             v-html="$sectionData.title"
             v-styler="$sectionData.title"
           )

@@ -4,13 +4,12 @@
   left: 0
   height: 70px
   width: 100%
-  background-color: $white
+  background-color: var(--white)
   display: flex
   justify-content: space-between
   align-items: center
   font-weight: 800
-  box-shadow: 0 0 6px rgba(0,0,0,.15)
-  
+  box-shadow: 0 0 6px var(--black_15)
   .nav-menu
     display: flex
     align-items: center
@@ -21,10 +20,10 @@
     justify-content: center
     align-items: center
     padding: 0 50px
-    color: $dark
-    transition: all 200ms ease-in-out
+    color: var(--dark)
+    transition: var(--transition-200)
     &:hover, &.router-link-exact-active
-      background-color: $light
+      background-color: var(--light)
       cursor: pointer
   .nav-logo
     height: inherit
@@ -32,9 +31,9 @@
     display: flex
     justify-content: center
     align-items: center
-    transition: all 200ms ease-in-out
+    transition: var(--transition-200)
     &:hover
-      background-color: $light
+      background-color: var(--light)
 
       
     
