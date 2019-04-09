@@ -6,7 +6,6 @@
         </router-link>
         <div class="nav-menu">
             <router-link class="nav-item" to="/">Home</router-link>
-            <router-link class="nav-item" to="/settings">Settings</router-link>  
         </div>
     </div>
 </template>

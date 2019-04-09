@@ -1,6 +1,5 @@
 <template>
     <div id="main_nav">
-       MainNav goes here
        <ProjectNav />
        <AppNav />
     </div>

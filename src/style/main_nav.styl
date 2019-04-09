@@ -1,0 +1,92 @@
+#main_nav
+    position: fixed
+    height: 100vh
+    width: 300px
+    display: flex
+    position: fixed
+    left: 0
+    .project-nav
+        height: inherit
+        width: 60px
+        background-color: var(--dark)
+        overflow: hidden
+        .project-menu
+            display: flex
+            flex-direction: column
+            align-items: center
+            padding: 10px
+            .project-item, .add-project
+                position: relative
+                display: flex
+                justify-content: center
+                align-items: center
+                height: 40px
+                width: 40px
+                margin-bottom: 10px
+                background-color: var(--white_5)
+                border-radius: 50px;
+                transition: var(--transition-200)
+                &:before 
+                    transition: var(--transition-200)
+                img
+                    height: 20px
+                    width: 20px
+                &:hover 
+                    &:before 
+                        content: ''
+                        position: absolute
+                        top: 15px
+                        left: -15px
+                        width: 10px
+                        height: 10px
+                        border-radius: 5px
+                        background-color: var(--white)
+                &.active 
+                    background-color: var(--white)
+                    border-radius: 10px
+                    &:before 
+                        content: ''
+                        position: absolute
+                        top: 5px
+                        left: -15px
+                        width: 10px
+                        height: 30px
+                        border-radius: 5px
+                        background-color: var(--white)
+            .add-project img
+                height 15px
+                width: 15px
+                opacity: .5
+    .app-nav
+        width: 240px
+        background-color: var(--primary)
+        .app-menu
+            display: flex
+            flex-direction: column
+            padding: 10px
+            .app-item
+                margin-bottom: 10px
+                width: 100%
+                border-radius: 10px
+                background-color: var(--white_10)
+                display: flex
+                align-items: center
+                padding: 10px 12px 
+                text-decoration: none
+                color: var(--white)
+                transition: var(--transition-200)
+                .app-icon
+                    height: 20px
+                    width: auto
+                    max-width: 20px
+                    margin-right: 10px
+                .app-title
+                    font-weight: 800
+                &:hover
+                    background-color: var(--white_25)
+                &.router-link-exact-active
+                    background-color: var(--white)
+                    color: var(--dark)
+                    .app-icon
+                        filter: invert(80%)
+
