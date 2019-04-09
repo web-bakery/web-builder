@@ -3,6 +3,9 @@ import App from './App.vue'
 import router from './router'
 import './registerServiceWorker'
 
+import Vuetify from 'vuetify'
+import 'vuetify/dist/vuetify.min.css'
+
 import Vuse from 'vuse';
 import Uploader from './Uploader'
 //import pwa from './pwa';
@@ -40,6 +43,9 @@ Vuse.component(newsletter);
 
 // install pwa plugin.
 //Vuse.use(pwa);
+
+
+Vue.use(Vuetify)
 
 // install the builder
 Vue.use(Vuse, {
